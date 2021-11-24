@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.10.0b2
 ADD app/ /app
 WORKDIR /app
 RUN apt-get update
